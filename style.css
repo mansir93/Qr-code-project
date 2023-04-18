@@ -12,7 +12,7 @@ body{
 
 .card{
     width: 250px;
-    /* height: 350px; */
+    
     padding: 10px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
@@ -20,7 +20,19 @@ body{
 .card-img-top{
     border-radius:10px;
 }
-
+.card-body{
+    padding: 5px;
+    text-align: center;
+}
+.card-body h6{
+    font-weight: 700;
+    margin: 10px;
+}
+.card-body p{
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
 
 .attribution {
     margin-top: 10px;
